@@ -1,6 +1,8 @@
 yr=float(input("Enter the year= "))
 if(yr<=0):
     print("INVALID ENTRY")
+elif(int(yr)!=yr):
+    print("INVALID ENTRY")
 else:
     if(yr%400==0):
             print("Leap year")
