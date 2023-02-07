@@ -14,7 +14,7 @@ if(num>99 and num<1000):
         for i in range(3):
             for j in range(3):
                 for k in range(3):
-                    if(1!=j and j!=k and k!=i):
+                    if(i!=j and j!=k and k!=i):
                         print(l[i],l[j],l[k])
 else:
     print("Invalid")
